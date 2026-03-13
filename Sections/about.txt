@@ -1,0 +1,1 @@
+﻿Mason is a Masters student at Binghamton University with an emphasis in Artificial Intelligence and Machine Learning. He boasts broad experience in both ML and software design, from data analysis to MERN stack.

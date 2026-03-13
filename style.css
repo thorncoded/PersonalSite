@@ -1,0 +1,30 @@
+﻿body {
+    background: rebeccapurple;
+}
+
+
+@keyframes loadingAnim {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+#loading-mason {
+    width: 40%;
+    animation-name: loadingAnim;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.loading-mason-finished {
+    visibility: hidden;
+}
+
+#normal-tabs {
+   visibility: hidden;
+}
+#normal-body {
+    visibility: hidden;
+}

@@ -4,18 +4,41 @@
   <title>98.css example</title>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="https://unpkg.com/98.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <div class="window" style="margin: 32px; width: 250px">
+  
+  <!--popup window-->
+  <div class="window" style="margin: 32px; width: 250px" id="window-loading-mason">
     <div class="title-bar">
       <div class="title-bar-text">
-        My First VB4 Program
+        Now Loading...
       </div>
     </div>
     <div class="window-body">
-      <p>Hello, world!</p>
+      <p>Loading your MASON...</p>
+      <div class="progress-indicator">
+        <span class="progress-indicator-bar" id="loading-mason" />
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!--tabs-->
+  <menu role="tablist" id="normal-tabs">
+    <li role="tab" aria-selected="true"><a href="#tabs">About</a></li>
+    <li role="tab"><a href="#tabs">Projects</a></li>
+    <li role="tab"><a href="#tabs">Contact</a></li>
+    <li role="tab"><a href="#tabs">Blog</a></li>
+  </menu>
+  <div class="window" role="tabpanel" id="normal-body">
+    <div class="window-body" id = "main-body">
+      <!--normal window-->
     </div>
   </div>
 </body>
 </html>
+
+<script src ="script.js"></script>
